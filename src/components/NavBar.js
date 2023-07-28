@@ -1,8 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const NavBar=()=>{
-
+const NavBar = () => {
   return (
     <div >
       <nav className="navbar fixed-top navbar-expand-lg navbar-dark  bg-dark">
@@ -13,15 +12,13 @@ const NavBar=()=>{
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
-              <li className="nav-item" style={{fontWeight:"bold"}} ><Link className="nav-link" aria-current="page" to="/">Home</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/science">Science</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/business">Business</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/entertainment">Entertainment</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/health">Health</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/sports">Sports</Link></li>
-              <li className="nav-item" style={{fontWeight:"bold"}} > <Link className="nav-link" to="/technology">Technology</Link></li>
-            
-
+              <li className="nav-item" style={{ fontWeight: "bold" }} ><Link className="nav-link" aria-current="page" to="/">Home</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/science">Science</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/business">Business</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/entertainment">Entertainment</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/health">Health</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/sports">Sports</Link></li>
+              <li className="nav-item" style={{ fontWeight: "bold" }} > <Link className="nav-link" to="/technology">Technology</Link></li>
             </ul>
           </div>
         </div>
