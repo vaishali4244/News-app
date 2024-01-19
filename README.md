@@ -1,3 +1,4 @@
+![news](https://github.com/vaishali4244/News-app/assets/112726638/b3480911-cef8-4217-9dc6-62fd2b6232dc)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
